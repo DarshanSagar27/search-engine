@@ -1,0 +1,85 @@
+Vite React ShadcnTS 
+
+A modern frontend project built with Vite, React, TypeScript, Tailwind CSS, and Shadcn UI components. This setup enables rapid development, maintainability, and beautiful UI with accessibility as a core principle.
+
+[![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://github.com/your-username/vitereactshadcnts/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Vite](https://img.shields.io/badge/vite-5.x-646CFF?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/react-18.x-61DAFB?logo=react&logoColor=white&style=flat-square)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/typescript-5.x-007ACC?logo=typescript&logoColor=white&style=flat-square)](https://www.typescriptlang.org/)
+
+🚀 Features
+Vite for lightning-fast bundling and hot reload​
+
+React 18 with hooks​
+
+TypeScript support​
+
+Tailwind CSS + tailwind-merge + tailwindcss-animate for styling​
+
+Shadcn UI components (Radix UI) for proven accessible primitive components​
+
+React Router v6 for robust routing​
+
+TanStack React Query for remote data management​
+
+Supabase-js for backend integration and authentication​
+
+Zod for schema validation​
+
+ESLint, TypeScript ESLint, and Prettier for code quality​
+
+SWC-based React plugin for Vite
+
+🛠️ Tech Stack
+Category	Tools / Packages
+Framework	React 18, Vite 5
+Styling	Tailwind CSS, tailwind-merge, tailwindcss-animate, clsx
+UI Library	Radix UI components (Shadcn UI)
+State Management	React Query (TanStack), React Hook Form, Zod
+Routing	React Router DOM 6.30
+Backend/API	Supabase-js 2.75.0
+Utilities	date-fns, lucide-react, cmdk, embla-carousel-react
+Linting/Quality	ESLint 9.32, TypeScript 5.8, TypeScript ESLint, Prettier
+Tooling	Vite, SWC, PostCSS, Autoprefixer
+
+📦 Installation
+bash
+# Clone this repository
+git clone https://github.com/DarshanSagar27/search-engine.git
+
+# Navigate to the project directory
+cd datum-sage-main
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+📜 Scripts
+Command	Effect
+npm run dev	Run dev server
+npm run build	Build for production
+npm run preview	Preview the production build
+npm run lint	Run ESLint
+
+📁 Folder Structure
+
+src/
+ ├─ components/     # UI components
+ ├─ pages/          # App pages/routes
+ ├─ hooks/          # Custom React hooks
+ ├─ lib/            # Utilities/APIs
+ ├─ types/          # TypeScript types
+ ├─ styles/         # Tailwind/global styles
+ └─ main.tsx        # App entry point
+
+⚙️ TypeScript + Linting
+Strict TypeScript configuration for reliability​
+
+Automated linting and formatting with ESLint and (optional) Prettier​
+
+🪪 License
+MIT License © 2025 — Built by you with ❤️ using Vite + React + Shadcn UI.​
